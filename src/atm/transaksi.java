@@ -133,7 +133,7 @@ public class transaksi extends javax.swing.JFrame {
         {
             this.setVisible(false);
             JOptionPane.showMessageDialog(null,"Saldo Anda saat ini sebesar : " + tab); //informasi saldo
-            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain ?","ATM BANK IPUL - ALEPPO",
+            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain ?","ATM SAYA",
                 JOptionPane.YES_NO_OPTION, 3); //konfirmasi transaksi lain
             if (z==0)
             {
@@ -141,7 +141,7 @@ public class transaksi extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null,"Terimakasih telah menggunakan ATM BANK IPUL - ALEPPO, ambil kartu ATM Anda.");
+                JOptionPane.showMessageDialog(null,"Terimakasih Telah Menggunakan ATM SAYA, Ambil Kartu ATM Anda.");
                 System.exit(0);
             }
         }
@@ -153,7 +153,7 @@ public class transaksi extends javax.swing.JFrame {
             setor hasil = new setor();
             hasil.menabung(tab, s);
             tab =hasil.getsaldo();
-            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain ?","ATM BANK IPUL -ALEPPO",
+            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain ?","ATM SAYA",
                 JOptionPane.YES_NO_OPTION, 3); //konfirmasi transaksi lain
             if (z==0)
             {
@@ -161,7 +161,7 @@ public class transaksi extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null,"Terimakasih telah menggunakan ATM BANK IPUL - ALEPPO, ambil kartu ATM Anda.");
+                JOptionPane.showMessageDialog(null,"Terimakasih Telah Menggunakan ATM SAYA, Ambil Kartu ATM Anda.");
                 System.exit(0);
             }
         }
@@ -173,7 +173,7 @@ public class transaksi extends javax.swing.JFrame {
             tarik mengambil = new tarik();
             mengambil.ambil(tab,t);
             tab =mengambil.getsaldo();
-            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain?","ATM BANK IPUL - ALEPPO",
+            z=JOptionPane.showConfirmDialog(null,"Melanjutkan transaksi lain?","ATM SAYA",
                 JOptionPane.YES_NO_OPTION, 3); //konfirmasi transaksi lain
             if (z==0)
             {
@@ -181,7 +181,7 @@ public class transaksi extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null,"Terimakasih telah menggunakan ATM BANK IPUL - ALEPPO, ambil kartu ATM Anda.");
+                JOptionPane.showMessageDialog(null,"Terimakasih Telah Menggunakan ATM SAYA, Ambil Kartu ATM Anda.");
                 System.exit(0);
             }
         }
@@ -192,7 +192,7 @@ public class transaksi extends javax.swing.JFrame {
         }
         else if (menu.getSelectedItem().equals("Keluar"))
         {
-            JOptionPane.showMessageDialog(null,"SILAHKAN AMBIL KARTU ATM ANDA !","TERIMAKASIH",JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null,"SILAHKAN AMBIL KARTU ATM ANDA !","TERIMAKASIH.....",JOptionPane.WARNING_MESSAGE);
             System.exit(0);
         }
     }
